@@ -19,8 +19,7 @@ int main(){
         }
         else{
             curr=1;
-            pd=diff;
-            
+            pd=diff;     
         }
         
         if(curr>maxl)
