@@ -2,6 +2,7 @@
 #include<vector>
 using namespace std;
 
+//Unique combination by taking one element only once
 void combinationSum1(int ind, int target, vector<int>& arr, vector<int> &ds){
         if(ind==arr.size()){
             if(target==0){
